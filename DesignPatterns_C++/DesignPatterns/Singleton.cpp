@@ -8,7 +8,7 @@ Singleton* Singleton::getInstance()
 {
 	if (!instance)
 	{
-		std::cout << "Singleton instance created!!!";
+		std::cout << "Singleton instance created!!!\n";
 		instance = new Singleton();
 	}
 	return instance;
