@@ -1,7 +1,7 @@
 #pragma once
 #include <iostream>
 
-namespace DesignPatterns
+namespace CreationalDesignPatterns
 {
 	/// <summary>
 	/// This is a singleton class that will have only one instance at a time.
@@ -14,6 +14,5 @@ namespace DesignPatterns
 	private:
 		Singleton() {}
 		static Singleton* instance;
-		static int refCount;
 	};
 }
